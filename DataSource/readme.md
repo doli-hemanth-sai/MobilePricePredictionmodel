@@ -9,3 +9,5 @@ Pandas: For data manipulation and analysis.
 NumPy: For scientific computing.
 
 Additionally, the we use Google Colab for running Python code and Jupyter Notebooks online.
+
+And at last created a csv file.
