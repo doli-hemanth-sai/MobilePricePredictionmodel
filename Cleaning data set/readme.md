@@ -10,4 +10,4 @@ Seaborn: A high-level interface to Matplotlib that provides attractive and infor
 
 data: Contains the input ds.csv and the output mobilesdf.csv obtained after data cleaning.
 
-notebooks: Contains the Jupyter Notebook dataset cleaning.ipynb demonstrating the data cleaning process.
+notebooks: Contains the Jupyter Notebook dataset_cleaning.ipynb demonstrating the data cleaning process.
