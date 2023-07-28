@@ -5,7 +5,7 @@ import joblib
 from var import *
 
 # configuring page default's
-st.set_page_config(page_title="Mobile Price Prediction", page_icon="fav.png")
+st.set_page_config(page_title="Mobile Price Prediction", page_icon="mobile.png")
 st.title("Mobile Price Prediction")
 
 # function to process input
