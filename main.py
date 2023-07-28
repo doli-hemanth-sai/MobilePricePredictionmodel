@@ -5,7 +5,7 @@ import joblib
 from var import *
 
 # configuring page default's
-st.set_page_config(page_title="Mobile Price Prediction", page_icon="mobile.png")
+st.set_page_config(page_title="Mobile Price Prediction Model", page_icon="mobile.png")
 st.title("Mobile Price Prediction")
 
 # function to process input
@@ -29,7 +29,7 @@ def process_mobile_info(data):
 
 
 def main():
-    st.title("Enter Mobile Details")
+    st.title("Enter Mobile Configurations")
     # Taking Input's
     c1, c2 = st.columns(2)
     # Left column
@@ -62,7 +62,7 @@ def main():
             "Enter the type of expandable storage:",
             ["microSD", "Nano Memory Card", "SD card"],
         )
-        esl = st.number_input("Enter the expandable storage:", min_value=0, step=1)
+        esl = st.number_input("Enter the expandable storage(GB):", min_value=0, step=1)
         g43 = st.selectbox("Enter the network of the mobile:", ["4G", "3G"])
         stype = st.selectbox(
             "Enter the SIM type of the mobile:", ["Nano-SIM", "Micro-SIM", "Regular"]
